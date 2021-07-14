@@ -3,4 +3,166 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.container {
+    width: 1050px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.link-btn {
+    background: #E02C6D;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+}
+
+/* header section */
+header {
+    background: #2D25A0;
+    
+}
+
+/* navber */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 42px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 36px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.copa {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 102px;
+    margin-top: 67px;
+    
+}
+.copa-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+.copa-thumbnail img {
+    width: 100%;
+    height: 438px;
+}
+/* players section */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 27px;
+}
+
+.player { 
+    width: 300px;
+    padding: 15px;
+    padding-bottom: 17px;
+    height: 474px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-banner img {
+    width: 100%;
+    
+}
+.player-name {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+    padding: 0;
+    margin: 0;
+  
+}
+
+
+.player-info {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    margin-top: 10px;
+}
+
+
+
+
+/* highlights section */
+
+.highlights {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 29px;
+    margin-top: 165px;
+}
+
+.highlights-detail {
+        width: 466px;
+        height: 309px;
+    }
+.highlights-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+}
+.highlights-info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.highlights-thumbnail img {
+    width: 100%;
+}
+
+/* footer section */
+
+footer {
+    text-align: center;
+}
+
+.social-links {
+    margin-top: 29px;
+}
+
+
+.fab {
+   font-size: 16px; 
+   margin-right: 14px;
+   background: #969BAB;
+   padding: 5px;
+   border-radius: 10px;
+   background: #969BAB;
+}
+
+.copyright {
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
 }
