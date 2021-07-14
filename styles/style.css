@@ -88,7 +88,7 @@ nav a {
 }
 .copa-thumbnail img {
     width: 100%;
-    /* transition: width 1s ease-in; */
+   
 }
 .copa-thumbnail img:hover {
     transform: scale(1.2);
@@ -117,10 +117,9 @@ main {
 }
 
 .player { 
-    /* width: 300px; */
+
     padding: 15px;
     padding-bottom: 17px;
-    /* height: 474px; */
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
@@ -189,6 +188,31 @@ highlights section
     width: 100%;
 }
 /* ------------------------exhtra section  ---------------------- */
+.gallerys {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+
+.gallery { 
+
+    padding: 15px;
+    padding-bottom: 17px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.gallery-banner {
+    overflow: hidden;
+}
+.gallery-banner img {
+    width: 100%;
+    
+}
+.gallery-banner img:hover {
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+}
 .extra-section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -252,7 +276,7 @@ media query
     nav {
         display: none;
     }
-    .copa ,.players ,.highlights {
+    .copa ,.players ,.highlights, .gallerys{
         grid-template-columns: repeat(1,1fr);
     }
     .copa-detail {
@@ -282,7 +306,7 @@ media query
     nav {
         display: none;
     }
-    .players {
+    .players , .gallerys {
         grid-template-columns: repeat(2,1fr);
     }
     .copa, .highlights{
