@@ -275,7 +275,9 @@ media query
 @media only screen and (max-width:688px){
     nav {
         display: none;
+
     }
+  
     .copa ,.players ,.highlights, .gallerys{
         grid-template-columns: repeat(1,1fr);
     }
@@ -297,6 +299,10 @@ media query
         grid-template-columns: repeat(1,1fr);
         width:100%;
     
+    }
+    .match iframe {
+        width: 100%;
+      
     }
 }
 
